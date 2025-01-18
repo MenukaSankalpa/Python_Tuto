@@ -1,3 +1,4 @@
+
 a = 10
 b = 2
 c = a + b
@@ -24,3 +25,9 @@ print(a % b)
 print(a // b)
 print(a ** b)
 
+w = "hello"
+q = 16
+print(q,type(q),w,type(w))
+
+v,b = 12,30
+print(v,b)
