@@ -8,6 +8,7 @@ M = 56
 
 if M < 0 or M > 100:
     print ("Invalid")
+    exit()
 
 if M >=0 and M<35:#
     print("W")
