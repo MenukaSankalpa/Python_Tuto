@@ -17,3 +17,7 @@ else:
 height = 175
 job = "Security" if height > 150 else "Labor"    
 print(job)
+
+#ternary 
+msg = "Your job is" + "Security" if height > 150 else "Labor"
+print(msg)
