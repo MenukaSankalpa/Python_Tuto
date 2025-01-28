@@ -5,6 +5,10 @@ d = {
     "Pet": "pati" 
 }
 
-for name in d:
-    height = d[name]
+for name, height in d.items():
+    print(type(name))
     print(name, height)
+    
+#for name in d:
+#    height = d[name]
+#    print(name, height)
