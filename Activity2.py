@@ -12,3 +12,7 @@ for name, height in d.items():
 #for name in d:
 #    height = d[name]
 #    print(name, height)
+
+for i, x in enumerate(d.items()):
+    name, height = x
+    print(name , height)
