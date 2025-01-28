@@ -1,23 +1,14 @@
-x = [12, 23, 567, 123, 88]
+d = {
+    "Name": "Menuka",
+    "Age": 21,
+    "Color": "black",
+    "Pet": "pati" 
+}
 
-count = 0
-total = 0
-min = max = x[0]
-
-while count < len(x):
-    item = x[count]
+for name, height in d.items():
+    print(type(name))
+    print(name, height)
     
-    if item > max:
-        max = item
-    
-    if item < min:
-        min = item    
-    
-    total += item
-    
-    count += 1
-    
-print("Total", total)
-print("Avg", total/len(x)) 
-print("Max", max)
-print("Min", min)   
+#for name in d:
+#    height = d[name]
+#    print(name, height)
