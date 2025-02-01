@@ -29,4 +29,3 @@ if grade:
     print("Garde = ", grade)
 else:
     print("Something went wrong!")        
-        
